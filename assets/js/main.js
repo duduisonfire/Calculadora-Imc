@@ -11,7 +11,7 @@ function main(){
         switch (true){
             case (imc < 18.5): weight = 'você está abaixo do peso'; break;
             case (imc > 18.5 && imc < 24.9): weight = 'você está com o peso normal'; break;
-            case (imc > 25 && imc < 29.9): weight = 'você está com o sobrepeso'; break;
+            case (imc > 25 && imc < 29.9): weight = 'você está com sobrepeso'; break;
             case (imc > 30 && imc < 34.9): weight = 'você está com obesidade grau 1'; break;
             case (imc > 35 && imc < 39.9): weight = 'você está obesidade grau 2'; break;
             case (imc > 40): weight = 'você está com obesidade grau 3';
