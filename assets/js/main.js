@@ -38,7 +38,6 @@ function main(){
         else { 
             let imcValue = imcCalc(peso, altura);
             imcValue = Number(imcValue);
-            console.log(typeof imcValue);
             return imcValue;
         }
     }
