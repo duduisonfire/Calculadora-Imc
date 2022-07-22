@@ -26,8 +26,6 @@ function main(){
 
         let peso = Number(inputPeso.value);
         let altura = Number(inputAltura.value);
-        console.log(peso, altura);
-        console.log(isNaN(altura))
 
         if ((isNaN(peso) || isNaN(altura))){
             return `Insira um peso ou altura válidos.`;
