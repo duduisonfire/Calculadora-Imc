@@ -1,5 +1,3 @@
-let calculateForm = document.querySelector('#imc');
-
 function imcCalc(peso, altura){
     const imc = peso / altura ** 2;
     return imc.toFixed(2);
@@ -71,6 +69,7 @@ function resultFunc(event){
 }
 
 function main(){
+    let calculateForm = document.querySelector('#imc');
     calculateForm.addEventListener('submit', resultFunc);
 }
 
