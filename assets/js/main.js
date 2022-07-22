@@ -22,10 +22,12 @@ function main(){
 
     function imcResult(event){
         let inputPeso = event.target.querySelector('#peso');
+        let inputPesoTransformado = inputPeso.value.replace(",", ".");
         let inputAltura = event.target.querySelector('#altura');
+        let inputAlturaTransformado = inputAltura.value.replace(",", ".");
 
-        let peso = Number(inputPeso.value);
-        let altura = Number(inputAltura.value);
+        let peso = Number(inputPesoTransformado);
+        let altura = Number(inputAlturaTransformado);
 
         if ((isNaN(peso) || isNaN(altura))){
             return `Insira um peso ou altura válidos.`;
