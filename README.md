@@ -1,4 +1,4 @@
-# calculadora-HTML
+# calculadora-IMC
 Olá, bem vindo, me chamo Igor Tiburcio Cavalcanti e este é um projeto que criei ao longo dos meus estudos em HTML, CSS e JavaScript.
 
 Está é uma calculadora de IMC feita com HTML, CSS e JavaScript com o intuito de praticar o aprendizado em JavaScript.
